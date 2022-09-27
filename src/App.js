@@ -1,12 +1,14 @@
-
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-   <div>
-    <h1>Hello World</h1>
-   </div>
-  );
+    <Routes>
+      <Route>
+        
+      </Route>
+    </Routes>
+  )
 }
 
 export default App;
