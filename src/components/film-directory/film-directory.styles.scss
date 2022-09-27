@@ -3,6 +3,9 @@
     grid-template-columns: repeat(4,1fr);
     column-gap: 10px;
     row-gap: 50px;
+    h1{
+        font-family: 'Concert One', cursive;
+    }
 }
 
 .film-directory-items{
