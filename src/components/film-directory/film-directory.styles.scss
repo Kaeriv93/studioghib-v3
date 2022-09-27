@@ -1,0 +1,22 @@
+.film-directory-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
+.film-directory-items{
+    display: flex;
+    flex-direction: column;
+
+    .movie-banner{
+        height: 300px;
+        
+    }
+
+    .film-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
