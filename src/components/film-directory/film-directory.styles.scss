@@ -33,6 +33,12 @@
     .film-directory-container{
         grid-template-columns: repeat(3,1fr);
     }
+
+    .film-directory-items{
+        .movie-banner{
+            width: 80%;
+        }
+    }
 }
 
 @media screen and (max-width: 1650px){
