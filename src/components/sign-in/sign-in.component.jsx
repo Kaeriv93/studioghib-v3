@@ -10,8 +10,8 @@ const Signin = () =>{
                 <FormInput label = "Email" type ="email" required name = "email" value= ""/>
                 <FormInput label="Password" type="password" required  name ="password" value =""/>
                 <div className='submit-container'>
-                    <button type="submit">Sign In</button>
-                    <button type="button">Google Sign In</button>
+                    <button className='sign-button' type="submit">Sign In</button>
+                    <button className='google-button' type="button">Google Sign In</button>
                 </div>
             </form>
         </div>

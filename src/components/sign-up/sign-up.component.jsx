@@ -14,7 +14,7 @@ const Signup = () =>{
                 <FormInput label="Password" type="password" required  name ="password" value =""/>
 
                 <FormInput label="Confirm Password" type= "password" required  name ="confirmPassword" value=""/>
-                <button type = "submit">Sign Up</button>
+                <button className='sign-button' type = "submit">Sign Up</button>
             </form>
         </div>
     )
