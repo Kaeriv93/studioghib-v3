@@ -4,17 +4,23 @@
     height: 70px;
     width: 100%;
     margin-bottom: 25px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Concert One', cursive;
     font-size: 1.2rem;
-
+    
+    h2{
+      color: #fff;
+      text-shadow: 5px 5px  #296E85;
+    }
     .nav-links-container{
       width: 50%;
       height: 100%;
       display: flex;
       align-items: center;
       justify-content: flex-end;
-
-      .nav-link{
+      
+      .nav-link {
+        color: #fff;
+        text-shadow: 5px 5px  #296E85;
         padding: 10px 15px;
         cursor: pointer;
         font-size: 1.5rem;
