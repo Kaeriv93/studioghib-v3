@@ -11,7 +11,6 @@ const Signin = () =>{
                 <FormInput label="Password" type="password" required  name ="password" value =""/>
                 <div className='submit-container'>
                     <button className='sign-button' type="submit">Sign In</button>
-                    <button className='google-button' type="button">Google Sign In</button>
                 </div>
             </form>
         </div>
