@@ -14,7 +14,7 @@ const Navigation = () =>{
                         SIGNIN
                     </Link>
                     <Link className="nav-link" to ='/'>
-                        SIGNOUT
+                        REVIEWS
                     </Link>
                 </div>
             </div> 

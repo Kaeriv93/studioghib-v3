@@ -1,0 +1,22 @@
+.hero-img-container{
+   img{
+    box-sizing: border-box;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #282828;
+    width: 95vw;
+    height: 40vh;
+   }
+
+   .original-title{
+    background-color: pink;
+    box-shadow: 5px 5px 5px #282828;
+    width: 15vw;
+    padding-left: 10px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+   }
+}
