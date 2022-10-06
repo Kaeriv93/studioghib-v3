@@ -1,22 +1,13 @@
 import { Outlet } from "react-router-dom";
-import {useState, useEffect} from 'react';
 import Film from "../../components/film-directory/film-directory.component";
-
-const Home = () => {
-    const[film, setFilm] = useState([]);
-
-    useEffect(() => {
-        fetch('https://ghibliapi.herokuapp.com/films')
-        .then(response => response.json())
-        .then(data => setFilm(data))
-    },[])
-    console.log(film);
+import './home.styles.scss';
 
 
-
+const Home = ({film}) => {
     return(
         <>
             <Outlet/>
+            <h1 className="home-title">Studio Ghibli Films</h1>
             <Film film = {film}/>
         </>
     )

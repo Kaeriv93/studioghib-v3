@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
-import './navigation.styles.scss'
+import './navigation.styles.scss';
+
 
 const Navigation = () =>{
     return(
@@ -13,7 +14,7 @@ const Navigation = () =>{
                         SIGNIN
                     </Link>
                     <Link className="nav-link" to ='/'>
-                        SIGNOUT
+                        REVIEWS
                     </Link>
                 </div>
             </div> 
