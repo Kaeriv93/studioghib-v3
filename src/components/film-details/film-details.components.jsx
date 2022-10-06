@@ -1,6 +1,7 @@
 import './film-details.styles.scss';
 import HeroImg from '../heroimg/heroimg.components';
-import FilmMain from '../film-main/film-main.component';
+import FilmMain from '../film-main-img/film-main.component';
+import MovieDetails from '../film-movie-details/movie-details.component';
 
 const FilmDetails = ({film}) => {
     const details = () => {
@@ -16,14 +17,8 @@ const FilmDetails = ({film}) => {
                 </div>
                 <div className='info-container'>
                     <FilmMain image  = {image} title = {title}/>
+                    <MovieDetails date = {release_date} rating = {rt_score} runtime = {running_time} producer = {producer} director = {director} desc = {description}/>
                 </div>
-                {/* <img src = {image} alt = {title}/> */}
-                <h2>{release_date}</h2>
-                <h2>{rt_score}</h2>
-                <p>{running_time}</p>
-                <p>{producer}</p>
-                <p>{director}</p>
-                <p>{description}</p>
             </div>
         )
     }
